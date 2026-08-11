@@ -178,6 +178,32 @@ const delcat = (req, res) => {
 }
 
 
+// const findcat = (req, res) => {
+//     if(re)
+//     categorymodel.find({category_name:req.body.category_name})
+//         .then((data) => {
+//             res.send({
+//                 status: 200,
+//                 success: true,
+//                 data: data,
+//                 message: "all categories loaded"
+
+
+//             })
+
+//         })
+//         .catch((err) => {
+//             res.send({
+//                 status: 500,
+//                 success: false,
+//                 message: "somethiing went wrong !!!"
+
+
+//             })
+//         })
+
+// }
+
 
 
 module.exports = { addcat, allcat, delcat }
